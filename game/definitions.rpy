@@ -9,9 +9,11 @@ image bg_room = "bg/Andrew_room.jpg"
 image bg_street = "bg/street.jpg"
 
 image Stranger = "stranger/Stranger.png"
+image Mom = "mom/mom.png"
 
 image closet = "images/closet.png"
 image portal = "images/portal.png"
 
 # Музыка и звуки
 define audio.door_sound = "sounds/door.mp3"
+define audio.portal_sound = "sounds/portal.mp3"

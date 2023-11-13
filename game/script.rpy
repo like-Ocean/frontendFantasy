@@ -74,13 +74,12 @@ label start:
     Andrew "Простите, можете пожалуйста подсказать где автобус."
     Stranger "А вы не хотите добраться быстрее?"
     Andrew "Хочу, а как?"
-    # Прохожий достает из сумки портал
-    show portal at left
 
+    show portal at left
+    play sound portal_sound
     Stranger "Вот как!"
     Stranger "Называйте координаты места."
     Andrew "620078"
     Stranger "Ок."
     # Андрей заходит в портал
     show portal at left with fade
-    # play sound sound_portal
