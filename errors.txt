@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 2: expected end of line
+    play music "music/bg_m.mp3" mixer="music" volume=0.5
+                                ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Tue Nov 28 17:25:15 2023
