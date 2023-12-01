@@ -2,9 +2,53 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 2: expected end of line
-    play music "music/bg_m.mp3" mixer="music" volume=0.5
-                                ^
+File "game/script.rpy", line 213: expected statement.
+    Егор: "Я уверен, ты справишься. Мы тебе поможем."
+        ^
+
+File "game/script.rpy", line 214: expected statement.
+    Andrew: "У вас такой яркий коллектив."
+          ^
+
+File "game/script.rpy", line 216: expected statement.
+    Egor: "Мы любим устраивать мозговые штурмы и обсуждать новые идеи для проектов."
+        ^
+
+File "game/script.rpy", line 217: expected statement.
+    Andrew: "Это звучит интересно!"
+          ^
+
+File "game/script.rpy", line 218: expected statement.
+    Egor: "Смотри, вот наша доска с задачами. Здесь мы отслеживаем все наши текущие проекты и задачи."
+        ^
+
+File "game/script.rpy", line 219: expected statement.
+    Andrew: "Вау, это выглядит впечатляюще. Я не могу дождаться, чтобы начать работать над этими проектами."
+          ^
+
+File "game/script.rpy", line 220: expected statement.
+    Egor: "Ты знаешь, Андрей, все это происходит во сне."
+        ^
+
+File "game/script.rpy", line 221: expected statement.
+    Andrew: "Что ты имеешь в виду?"
+          ^
+
+File "game/script.rpy", line 222: expected statement.
+    Egor: "Ты сейчас спишь, Андрей. Это всего лишь сон. Но это не значит, что ты не можешь учиться отсюда. В конце концов, многие великие идеи приходят к нам во сне."
+        ^
+
+File "game/script.rpy", line 223: expected statement.
+    Andrew: "Это странно... но я чувствую, что это правда. Я чувствую, что я сплю."
+          ^
+
+File "game/script.rpy", line 224: expected statement.
+    Egor: "Так что давай использовать этот сон, чтобы узнать больше о frontend разработке. Ты готов?"
+        ^
+
+File "game/script.rpy", line 225: expected statement.
+    Андрей: "Да, я готов."
+          ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Tue Nov 28 17:25:15 2023
+Fri Dec  1 17:39:33 2023

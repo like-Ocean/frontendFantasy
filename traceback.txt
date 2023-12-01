@@ -1,42 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 212, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 529, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 529, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 540, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/script.rpy", line 224, in script
+    Андрей "Да, я готов."
+Exception: Sayer 'Андрей' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 212, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 529, in script
-    python hide:
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 529, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 540, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\loadsave.py", line 816, in load
-    log.unfreeze(roots, label="_after_load")
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\rollback.py", line 1105, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\rollback.py", line 905, in rollback
-    self.load_failed()
-  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\rollback.py", line 823, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/script.rpy", line 224, in script
+    Андрей "Да, я готов."
+  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\4853597\Desktop\renPy\renpy-8.1.3-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Андрей' is not defined.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Frontend Fantasy 1.0
-Tue Nov 28 17:38:21 2023
+Fri Dec  1 17:47:39 2023
