@@ -12,6 +12,7 @@ image bg_street = "bg/street.jpg"
 image office_outside = "bg/office_10_outside.png"
 image office_inside = "bg/office_10_inside.png"
 image coworking = "bg/coworking.png"
+image desk = "bg/desk.png"
 
 
 image Stranger = "stranger/Stranger.png"
@@ -28,4 +29,7 @@ define audio.door_sound = "sounds/door.mp3"
 define audio.portal_sound = "sounds/portal.mp3"
 define audio.door2_sound = "sounds/door2.mp3"
 define audio.coworking_sound = "sounds/coworking.mp3"
+define audio.ringer = "sounds/ringer.mp3"
+
+
 define bg = "music/bg_m.mp3"
