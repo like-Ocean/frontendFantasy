@@ -8,6 +8,7 @@ define Egor = Character("Егор", color="#228B22")
 
 # Определяем фоны и спрайты
 image bg_room = "bg/Andrew_room.jpg"
+image bg_room_day = "bg/Andrew_room_day.jpg"
 image bg_street = "bg/street.jpg"
 image office_outside = "bg/office_10_outside.png"
 image office_inside = "bg/office_10_inside.png"
@@ -20,6 +21,7 @@ image Mom = "mom/mom.png"
 image Receptionist = "girlReception/girl_reception_smile.png"
 image Boss = "boss/boss.png"
 image Egor = "egor/Egor.png"
+# image Matvey = "egor/Egor.png"
 
 image closet = "images/closet.png"
 image portal = "images/portal.png"
