@@ -5,14 +5,14 @@ Frontend Fantasy - визуальная новелла, которая помо�
 
 ### Как скачать новеллу
 После того как вы открыли github вы окажитесь в ветке main
-![Image alt](https://github.com/like-Ocean/frontendFantasy/main/main.png)
+![Image alt](https://github.com/like-Ocean/frontendFantasy/blob/main/main.png)
 
 Далее вам нужно переключиться в ветку relese
-![Image alt](https://github.com/like-Ocean/frontendFantasy/main/relese.png)
+![Image alt](https://github.com/like-Ocean/frontendFantasy/blob/main/relese.png)
 
 Затем вам нужно нажать на зелёную кнопку code и выбрать пункт download ZIP. Проект с игрой может долго скачиваться, прошу, пожалуйста проявите чуточку терпения **🙏**
-![Image alt](https://github.com/like-Ocean/frontendFantasy/tree/main/code.png)
-![Image alt](https://github.com/like-Ocean/frontendFantasy/tree/main/download.png)
+![Image alt](https://github.com/like-Ocean/frontendFantasy/blob/main/code.png)
+![Image alt](https://github.com/like-Ocean/frontendFantasy/blob/main/download.png)
 
 
 ### Ссылки:
